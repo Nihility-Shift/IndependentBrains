@@ -1,11 +1,12 @@
-﻿using VoidManager.CustomGUI;
+﻿using VoidManager;
+using VoidManager.CustomGUI;
 using VoidManager.Utilities;
 
 namespace IndependentBrains
 {
     internal class GUI : ModSettingsMenu
     {
-        public override string Name() => "Independent Brains";
+        public override string Name() => MyPluginInfo.USERS_PLUGIN_NAME;
 
         public override void Draw()
         {

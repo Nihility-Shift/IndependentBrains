@@ -4,7 +4,7 @@
     <AssemblyName>IndependentBrains</AssemblyName>
     <Description>
     </Description>
-    <Version>0.0.0</Version>
+    <Version>0.0.1</Version>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <LangVersion>latest</LangVersion>
     <RestoreAdditionalProjectSources>
@@ -13,8 +13,7 @@
       https://nuget.samboy.dev/v3/index.json
     </RestoreAdditionalProjectSources>
     <RootNamespace>IndependentBrains</RootNamespace>
-    <AssemblyTitle>
-    </AssemblyTitle>
+    <AssemblyTitle>Makes B.R.A.I.N turrets select different targets. Host Side</AssemblyTitle>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <DebugType>embedded</DebugType>
@@ -24,7 +23,6 @@
     <DebugType>embedded</DebugType>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="BepInEx.Analyzers" Version="1.*" PrivateAssets="all" />
     <PackageReference Include="BepInEx.Core" Version="5.4.21" PrivateAssets="all" />
     <PackageReference Include="VCMT.Thunderstore.DocBuilder" Version="0.1.3" PrivateAssets="all" />
     <PackageReference Include="VCMT.VoidManager" Version="1.2.2" PrivateAssets="all" />
