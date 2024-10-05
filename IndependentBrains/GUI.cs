@@ -1,5 +1,4 @@
-﻿using VoidManager;
-using VoidManager.CustomGUI;
+﻿using VoidManager.CustomGUI;
 using VoidManager.Utilities;
 
 namespace IndependentBrains

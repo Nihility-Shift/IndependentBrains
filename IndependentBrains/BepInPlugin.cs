@@ -2,7 +2,6 @@
 using BepInEx.Logging;
 using HarmonyLib;
 using System.Reflection;
-using VoidManager;
 
 namespace IndependentBrains
 {
