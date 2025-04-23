@@ -28,8 +28,8 @@ namespace IndependentBrains
             List<WeaponTarget> ___potentialTargets, ref int ___currentTargetPriority, OrbitObject __state)
         {
             //Proceed if the current target is a fighter, a mine, or all config, and a new target was just selected
-            if (((___activeTarget.TargetedUnit is not AbstractDrone || !Configs.randomFightersConfig.Value) &&
-                (___activeTarget.TargetedUnit is not AbstractProximityMine || !Configs.randomMinesConfig.Value) &&
+            if (((___activeTarget.TargetedUnit is not Drone || !Configs.randomFightersConfig.Value) &&
+                (___activeTarget.TargetedUnit is not ProximityMine || !Configs.randomMinesConfig.Value) &&
                 !Configs.randomAllConfig.Value) ||
                 ___activeTarget.TargetedUnit == __state) return;
 
