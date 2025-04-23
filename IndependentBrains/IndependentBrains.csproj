@@ -4,7 +4,7 @@
     <AssemblyName>IndependentBrains</AssemblyName>
     <Description>
     </Description>
-    <Version>0.0.1</Version>
+    <Version>1.0.0</Version>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <LangVersion>latest</LangVersion>
     <RestoreAdditionalProjectSources>
@@ -13,7 +13,7 @@
       https://nuget.samboy.dev/v3/index.json
     </RestoreAdditionalProjectSources>
     <RootNamespace>IndependentBrains</RootNamespace>
-    <AssemblyTitle>Makes B.R.A.I.N turrets select different targets. Host Side</AssemblyTitle>
+    <AssemblyTitle>Makes B.R.A.I.N turrets select different targets. Host Side.</AssemblyTitle>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <DebugType>embedded</DebugType>
